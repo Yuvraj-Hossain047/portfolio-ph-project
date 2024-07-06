@@ -56,11 +56,15 @@ button{
 .hero .navi .menu:nth-child(2){
     margin-right: 51px;
 }
-.hero .navi .menu a{
+.hero .navi .menu li a{
     color: #474747;
     font-size: 20px;
     font-weight: 400;
     line-height: 27px;
+    transition: .3s ease-in-out;
+}
+.hero .navi .menu li a:hover{
+    transform: scale(1.1);
 }
 .hero .navi .nav_btn a{
     padding: 19px 35px;
@@ -109,6 +113,9 @@ button{
 .banner_btn{
     margin-bottom: 184px;
 }
+.banner_btn .btn_cv{
+    margin-right: 30px;
+}
 .banner_btn .btn_cv a{
     padding: 19px 17px;
     background-color: #FD6E0A;
@@ -122,6 +129,21 @@ button{
 .banner_btn .btn_cv a:hover{
     background-color: #FFF;
     color: #FD6E0A;
+}
+.banner_btn .btn_c a{
+    padding: 19px 24px;
+    background-color: #FFF8F3;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    transition: .4s ease-in-out;
+}
+.banner_btn .btn_c a:hover{
+    background-color: #FD6E0A;
+    color: #FFF;
 }
 .hero .hero_img .img1{
     position: absolute;
