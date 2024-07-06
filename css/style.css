@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -16,10 +17,126 @@ a{
     text-decoration: none; 
     display: inline-block;
 }
-
-
-.nav{
+button{
+    border: 0;
+}
+.orange_t{
+    color: #FD6E0A;
+}
+.hero{
+    width: 1600px;
+    background: #FFF8F3;
+    padding: 51px 0 0 23px;
+    margin: 0 auto;
+    position: relative;
+}
+.hero .nav{
     width: 1140px;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
+}
+.hero .logo h3{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 61px;
+}
+.hero .navi{
+    display: flex;
+    justify-content: flex-end;
+}
+.hero .navi .menu{
+    display: flex;
+    align-items: center;
+}
+.hero .navi .menu li{
+    margin-right: 69px;
+}
+.hero .navi .menu:nth-child(2){
+    margin-right: 51px;
+}
+.hero .navi .menu a{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.hero .navi .nav_btn a{
+    padding: 19px 35px;
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    border-radius: 5px;
+    transition: .4s ease-in-out;
+}
+.hero .navi .nav_btn a:hover{
+    background-color: #FFF;
+    color: #FD6E0A;
+}
+.banner{
+    width: 1140px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: ;
+    flex-direction: column;
+    margin: 183px auto 0;
+}
+.banner .banner_text h3{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 61px;
+    margin-bottom: 5px;
+}
+.banner .banner_text h1{
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 116px;
+    margin-bottom: 20px;
+}
+.banner .banner_text p{
+    width: 585px;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.banner_btn{
+    margin-bottom: 184px;
+}
+.banner_btn .btn_cv a{
+    padding: 19px 17px;
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    border-radius: 5px;
+    transition: .4s ease-in-out;
+}
+.banner_btn .btn_cv a:hover{
+    background-color: #FFF;
+    color: #FD6E0A;
+}
+.hero .hero_img .img1{
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    z-index: 3;
+}
+.hero .hero_img .img2{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.hero .hero_img .img3{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
 }
