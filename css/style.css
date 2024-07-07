@@ -299,5 +299,6 @@ button{
 }
 /* =========CONNECT PART============= */
 #connect{
-    
+    padding: 130px 230px;
+    display: flex;
 }
