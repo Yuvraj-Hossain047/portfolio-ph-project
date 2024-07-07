@@ -27,50 +27,50 @@ button{
     margin: 0 auto;
 }
 /* ===============================================HERO & BANNER PART============================================ */
-.hero{
+#hero{
     width: 1600px;
     background: #FFF8F3;
     padding: 51px 0 0 23px;
     margin: 0 auto;
     position: relative;
 }
-.hero .nav{
+#hero .nav{
     width: 1140px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
 }
-.hero .logo h3{
+#hero .logo h3{
     color: #181818;
     font-size: 45px;
     font-weight: 800;
     line-height: 61px;
 }
-.hero .navi{
+#hero .navi{
     display: flex;
     justify-content: flex-end;
 }
-.hero .navi .menu{
+#hero .navi .menu{
     display: flex;
     align-items: center;
 }
-.hero .navi .menu li{
+#hero .navi .menu li{
     margin-right: 69px;
 }
-.hero .navi .menu:nth-child(2){
+#hero .navi .menu:nth-child(2){
     margin-right: 51px;
 }
-.hero .navi .menu li a{
+#hero .navi .menu li a{
     color: #474747;
     font-size: 20px;
     font-weight: 400;
     line-height: 27px;
     transition: .3s ease-in-out;
 }
-.hero .navi .menu li a:hover{
+#hero .navi .menu li a:hover{
     transform: scale(1.1);
 }
-.hero .navi .nav_btn a{
+#hero .navi .nav_btn a{
     padding: 19px 35px;
     background-color: #FD6E0A;
     color: #FFFFFF;
@@ -81,7 +81,7 @@ button{
     border: 1px solid transparent;
     transition: .4s ease-in-out;
 }
-.hero .navi .nav_btn a:hover{
+#hero .navi .nav_btn a:hover{
     background-color: transparent;
     color: #FD6E0A;
     border-color: #FD6E0A;
@@ -155,59 +155,69 @@ button{
     background-color: #FD6E0A;
     color: #FFF;
 }
-.hero .hero_img .img1{
+#hero .hero_img .img1{
     position: absolute;
     bottom: 0;
     right: 5%;
     z-index: 3;
 }
-.hero .hero_img .img2{
+#hero .hero_img .img2{
     position: absolute;
     left: 0;
     bottom: 0;
 }
-.hero .hero_img .img3{
+#hero .hero_img .img3{
     position: absolute;
     right: 0;
     bottom: 0;
     z-index: 2;
 }
 /* ==================================ABOUT  ME========================================== */
-.about_me{
+#about_me{
     padding: 130px 0;
     text-align: center;
 }
-.about_me .container{
+#about_me .container{
     padding: 131px 156px;
     background: #FFF8F3;
 }
-.about_me .container .about_me_h2{
+/* =======changed to common css */
+.container .about_me_h2{
     font-size: 35px;
     font-weight: 700;
     line-height: 48px;
     color: #181818;
     margin-bottom: 30px;
 }
-.about_me .container .about_me_p{
+/* =======changed to common css */
+.container .about_me_p{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     color: #757575;
     margin-bottom: 30px;
 }
-.about_me .container .info{
+#about_me .container .info{
     display: flex;
     justify-content: space-around;
 }
-.about_me .container .info .info_data_p{
+#about_me .container .info .info_data_p{
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
     color: #757575;
 }
-.about_me .container .info .info_data_pd{
+#about_me .container .info .info_data_pd{
     font-size: 20px;
     font-weight: 700;
     line-height: 30px;
     color: #757575;
+}
+/* ==========WHAT I DO part================ */
+#what_do{
+    text-align: center;
+}
+#what_do .container .about_me_p{
+    width: 909px;
+    margin: 0 auto 50px;
 }
