@@ -186,6 +186,7 @@ a{ text-decoration: none; display: inline-block; }
 #about_me .container .info{
     display: flex;
     justify-content: space-around;
+    text-align: center;
 }
 #about_me .container .info .info_data_p{
     font-size: 20px;
