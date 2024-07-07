@@ -297,12 +297,22 @@ a{ text-decoration: none; display: inline-block; }
 }
 #connect .lets_connect p{
     width: 562px;
-    margin: 0 auto;
+    margin: 0 auto 30px;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
     color: #474747;
 }
+#connect .lets_connect i{
+    font-size: 24px;
+    margin-right: 24px;
+    color: #FD6E0A;
+    transition: .3s ease-in-out;
+}
+#connect .lets_connect i:hover{
+    color: #181818;
+}
+
 #connect .lets_message #form{
     display: flex;
     flex-direction: column;
