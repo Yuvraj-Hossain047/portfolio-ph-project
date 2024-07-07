@@ -252,3 +252,43 @@ button{
     color: #757575;
 }
 /* ==========Summary part============= */
+#summary{
+    padding-bottom: 113px;
+}
+#summary .about_me_h2{
+    margin-bottom: 114px;
+}
+#summary .edu_ex{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+#summary .edu_ex h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    color: #474747;
+}
+#summary .edu_ex h3{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    color: #474747;
+    margin: 30px 0 10px;
+}
+#summary .edu_ex h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+#summary .edu_ex p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #757575;
+    width: 511px;
+    margin: 0 auto 29px;
+}
