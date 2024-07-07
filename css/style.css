@@ -74,11 +74,13 @@ button{
     font-weight: 700;
     line-height: 27px;
     border-radius: 5px;
+    border: 1px solid transparent;
     transition: .4s ease-in-out;
 }
 .hero .navi .nav_btn a:hover{
-    background-color: #FFF;
+    background-color: transparent;
     color: #FD6E0A;
+    border-color: #FD6E0A;
 }
 .banner{
     width: 1140px;
@@ -112,6 +114,7 @@ button{
 }
 .banner_btn{
     margin-bottom: 184px;
+    display: flex;
 }
 .banner_btn .btn_cv{
     margin-right: 30px;
@@ -123,16 +126,18 @@ button{
     font-size: 20px;
     font-weight: 700;
     line-height: 27px;
+    border: 1px solid transparent;
     border-radius: 5px;
     transition: .4s ease-in-out;
 }
 .banner_btn .btn_cv a:hover{
-    background-color: #FFF;
+    background-color: transparent;
     color: #FD6E0A;
+    border-color: #FD6E0A;
 }
 .banner_btn .btn_c a{
     padding: 19px 24px;
-    background-color: #FFF8F3;
+    background-color: transparent;
     color: #FD6E0A;
     font-size: 20px;
     font-weight: 700;
@@ -140,6 +145,7 @@ button{
     border: 1px solid #FD6E0A;
     border-radius: 5px;
     transition: .4s ease-in-out;
+    cursor: pointer;
 }
 .banner_btn .btn_c a:hover{
     background-color: #FD6E0A;
