@@ -4,28 +4,11 @@
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
 }
-h1, h2, h3, h4, h5, h6, p{
-    margin: 0;
-}
-ul, ol{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-a{
-    text-decoration: none; 
-    display: inline-block;
-}
-button{
-    border: 0;
-}
-.orange_t{
-    color: #FD6E0A;
-}
-.container{
-    width: 1140px;
-    margin: 0 auto;
-}
+h1, h2, h3, h4, h5, h6, p{ margin: 0; }
+ul, ol{ list-style: none; margin: 0; padding: 0; }
+a{ text-decoration: none; display: inline-block; }
+.orange_t{ color: #FD6E0A; }
+.container{ width: 1140px; margin: 0 auto; }
 /* ===============================================HERO & BANNER PART============================================ */
 #hero{
     width: 1600px;
@@ -123,7 +106,7 @@ button{
 .banner_btn .btn_cv{
     margin-right: 30px;
 }
-/* =====changed to common css */
+/* ========================changed to common css */
 .btn_cv .btn_cv_a{
     padding: 19px 17px;
     background-color: #FD6E0A;
@@ -135,7 +118,7 @@ button{
     border-radius: 5px;
     transition: .4s ease-in-out;
 }
-/* =====changed to common css */
+/* ========================changed to common css */
 .btn_cv .btn_cv_a:hover{
     background-color: transparent;
     color: #FD6E0A;
@@ -182,7 +165,7 @@ button{
     padding: 131px 156px;
     background: #FFF8F3;
 }
-/* =======changed to common css */
+/* =====================================changed to common css */
 .container .about_me_h2{
     text-align: center;
     font-size: 35px;
@@ -191,7 +174,7 @@ button{
     color: #181818;
     margin-bottom: 30px;
 }
-/* =======changed to common css */
+/* =======================================changed to common css */
 .container .about_me_p{
     text-align: center;
     font-size: 18px;
@@ -216,7 +199,7 @@ button{
     line-height: 30px;
     color: #757575;
 }
-/* ==========WHAT I DO part================ */
+/* =======================================WHAT I DO part================================ */
 #what_do{
     
     padding-bottom: 130px;
@@ -253,7 +236,7 @@ button{
     line-height: 28px;
     color: #757575;
 }
-/* ==========Summary part============= */
+/* =========================================SUMMARY part============================= */
 #summary{
     padding-bottom: 113px;
 }
@@ -297,7 +280,7 @@ button{
 #summary .btn_cv{
     text-align: center;
 }
-/* =========CONNECT PART============= */
+/* =========================CONNECT PART============================= */
 #connect{
     background: #FFF8F3;
     padding: 130px 230px;
@@ -338,6 +321,7 @@ button{
 }
 #connect #form .tx_h{
     height: 180px;
+    resize: none;
 }
 #connect .sub_btn{
     
